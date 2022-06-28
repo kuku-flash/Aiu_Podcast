@@ -35,6 +35,6 @@ echo"<script> alert('Wrong email or password!!!');  history.back();  </script>";
 
 
 
-mysqli_close();
+mysqli_close($conn);
 
 ?>

@@ -81,8 +81,6 @@ include '../configure/config.php';
         }
         $no_of_records_per_page = 8;
         $offset = ($pageno-1) * $no_of_records_per_page;
-
-        $conn=mysqli_connect("localhost","root","12345678","aiu_podcast");
         // Check connection
         if (mysqli_connect_errno()){
             echo "Failed to connect to MySQL: " . mysqli_connect_error();
